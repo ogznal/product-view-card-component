@@ -78,6 +78,23 @@ const Home: NextPage = () => {
             </button>
           </div>
         </div>
+        <footer className="mt-10 text-xs">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            className="text-blue-800 hover:text-blue-600 hover:underline"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a
+            href="https://github.com/ogznal"
+            className="text-blue-800 hover:text-blue-600 hover:underline"
+          >
+            ogznal
+          </a>
+          .
+        </footer>
       </main>
     </>
   );
